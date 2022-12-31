@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://telegra.ph/file/68d28011b2bc356b5db01.png" alt="Lazy Princess Logo">
+  <img src="https://te.legra.ph/file/9918ff1d61164e4804c90.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
-  <b> Lazy PrincessV2.0 </b>
+  <b> 𝙷𝙱 </b>
 </h1>
 
 
 ## Features
 
 - [x] 🔥 New feature : 
-    - [+] ⚡️ Support 2GB + Files ⚡️
+    - [+] ⚡️ Support 4GB + Files ⚡️
 - [x] Auto Filter
 - [x] Manual Filter
 - [x] IMDB
