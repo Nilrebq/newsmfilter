@@ -125,7 +125,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/8"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/2"),]
 )
     btn.append(
     [InlineKeyboardButton("😬 ʟɪɴᴋ ᴇʀʀᴏʀ ᴩʀᴏʙʟᴇᴍ 😬", url="https://t.me/linkdownlos/4"),]
