@@ -14,7 +14,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://dulink.in/')
-    START_TXT = environ.get("START_TXT", "ʜᴇʟᴏ {}\n\nɪᴀᴍ ᴀ ꜱɪᴍᴘʟᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ + ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘꜱ. ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ᴠɪᴀ ɪɴʟɪɴᴇ. ɪ ᴄᴀɴ ᴀʟꜱᴏ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘꜱ.  ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ")
+    START_TXT = environ.get("START_TXT", "ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴄᴀɴ ᴩʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ\n\n🍃ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/hb_admin_bot>𝙷𝙰𝚁𝙸 𓆩♡︎𓆪</a>")
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
