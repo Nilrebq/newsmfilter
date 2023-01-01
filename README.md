@@ -8,7 +8,7 @@
 
 ## Features
 
-- [x]  New feature : 
+- [x] New feature : 
     - [+] ⚡️ Support 4GB + Files ⚡️
 - [x] Auto Filter
 - [x] Manual Filter
