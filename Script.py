@@ -39,12 +39,17 @@ class script(object):
 ║┣⚡️🍬ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟꜱ 🦋✨
 ║┗━━━━━━━━━━━━━━━➣
 ║┏━━━━━━━━━━━━━━━➣
+║┣
 ║┣<a href=https://t.me/TAMIL_FLIMS_HD>🔰✥ ▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
+║┣
 ║┣<a href=https://t.me/+lp5mOR6wSMIyMzY1>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 1 ◁</a>
+║┣
 ║┣<a href=https://t.me/+VyuE_q8JC9UzZTll>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 2 ◁</a>
+║┣
 ║┣<a href=https://t.me/+TJzbQrEhZBg3ZGRl>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 3 ◁</a>
 ║┣
 ║┣🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ 🙌</a>
+║┣
 ║┗━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁"""
     MANUELFILTER_TXT = """ʜᴇʟᴩ: <b>ꜰɪʟᴛᴇʀꜱ</b>
