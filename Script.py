@@ -1,4 +1,4 @@
-#### This Code Was Devloped By @MS_LinkZzz ####
+#### This Code Was Devloped By _LinkZzz ####
 
 import re
 from os import environ
