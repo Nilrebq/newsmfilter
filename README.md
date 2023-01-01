@@ -9,7 +9,7 @@
 ## Features
 
 - [x] New feature : 
-    - [+] ⚡️ Support 4GB + Files ⚡️
+- [+] ⚡️ Support 4GB + Files ⚡️
 - [x] Auto Filter
 - [x] Manual Filter
 - [x] IMDB
