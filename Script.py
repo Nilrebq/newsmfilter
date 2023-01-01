@@ -21,7 +21,7 @@ class script(object):
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
-║┣⪼ 𝓜𝔂 𝓝𝓪𝓶𝓮 - 𝙳𝚁𝙰𝙶𝙾𝙽
+║┣⪼ 𝓜𝔂 𝓝𝓪𝓶𝓮 - {}
 ║┣⪼ 𝓒𝓻𝓮𝓪𝓽𝓸𝓻 - <a href=https://t.me/Hari_OP>𝙷𝙰𝚁𝙸</a>
 ║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
@@ -67,11 +67,11 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. MS_LinkZzz supports buttons with any telegram media type.
+2. Hb_LinkZzz supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MS_LinkZzz)</code>
+<code>[Button Text](buttonurl:https://t.me/hb_admin_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
