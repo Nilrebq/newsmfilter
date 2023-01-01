@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/9918ff1d61164e4804c90.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/bc6fd75eb1d194e9d6ba4.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906').split()]
@@ -45,8 +45,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyPrincessSupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "Name:<code>{file_name}</code>\n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n<b>Join Now [ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/TAMIL_FLIMS_HD)</b> ")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "Name:<code>{file_name}</code>\n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n<b>Join Now [ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/TAMIL_FLIMS_HD)</b> ")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "Name:<code>{file_name}</code>\n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n<b>ᴊᴏɪɴ ɴᴏᴡ :[ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/TAMIL_FLIMS_HD)</b> ")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "Name:<code>{file_name}</code>\n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n<b>ᴊᴏɪɴ ɴᴏᴡ :[ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/TAMIL_FLIMS_HD)</b> ")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb: \n\n🏷 Title: {title}\n🌟 Rating : {rating}/10\n🎭 Genres: {genres}\n📆 Year: {year}\n⏰ Duration : {runtime}\n🎙️ Languages : {languages}\n🔖 Plot : {plot}\n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
@@ -71,11 +71,11 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Paisakamalo.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '3e63b4f65ab441285a5457902b5ae4b2bbc8fcae')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'ec72f63f7a24370058610e02813fff3ec317f4c0')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 170))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 250))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
