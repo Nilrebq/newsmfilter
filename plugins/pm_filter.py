@@ -547,8 +547,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.chat.id,
             query.message.id,
             InputMediaPhoto(random.choice(PICS))
-            
-          
+        )
+         await query.message.edit_text(
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
