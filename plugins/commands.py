@@ -45,14 +45,14 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
-            ],[
-            InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
-            InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
-            ],[
+            InlineKeyboardButton('༒ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ ༒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 1 ⨳', url='https://t.me/FLIMSGROUP'),
+            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 2 ⨳', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+        ], [
+            InlineKeyboardButton('× ʜᴇʟᴩ ×', callback_data='help'),
+            InlineKeyboardButton('⊹ ᴀʙᴏᴜᴛ ⊹', callback_data='about')
+        ], [
             InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -93,14 +93,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
-            ],[
-            InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
-            InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
-            ],[
+            InlineKeyboardButton('༒ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ ༒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 1 ⨳', url='https://t.me/FLIMSGROUP'),
+            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 2 ⨳', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+        ], [
+            InlineKeyboardButton('× ʜᴇʟᴩ ×', callback_data='help'),
+            InlineKeyboardButton('⊹ ᴀʙᴏᴜᴛ ⊹', callback_data='about')
+        ], [
             InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
