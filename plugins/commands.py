@@ -57,7 +57,7 @@ async def start(client, message):
             InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
             InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
         ], [
-            InlineKeyboardButton('☂ ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ ☂', url='https://t.me/+rs4CPTFXPjs5Yzhl')
+            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/+rs4CPTFXPjs5Yzhl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAI9zWPK3xn8eRyMVgF-tx8kxT1GJfedAAJuAAONG0YnBeBv_A3hPLceBA") 
