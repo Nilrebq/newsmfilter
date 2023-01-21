@@ -448,13 +448,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('༒ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ ༒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+        ], [
             InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 1 ⨳', url='https://t.me/FLIMSGROUP'),
             InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 2 ⨳', url='https://t.me/+dyvRr3LZxlI4ZjVl')
         ], [
             InlineKeyboardButton('× ʜᴇʟᴩ ×', callback_data='help'),
             InlineKeyboardButton('⊹ ᴀʙᴏᴜᴛ ⊹', callback_data='about')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/TAMIL_FLIMS_HD')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
