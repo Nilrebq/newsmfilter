@@ -21,17 +21,19 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [
-            [
-                InlineKeyboardButton('🔰ᴜᴩᴅᴀᴛᴇꜱ🔰', url='https://t.me/+dyvRr3LZxlI4ZjVl')
-            ],
-            [
-                InlineKeyboardButton('🍁ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🍁', url=f"https://t.me/TAMIL_FLIMS_HD"),
-            ],
-            [
-                InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
-            ]
-            ]
+        buttons = [[
+            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/TAMIL_FLIMS_HD')
+        ], [
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+Bj7hDRsg9GE0MDNl'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+sURH2NlgZ9plNWI9')
+        ], [
+            InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
+            InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
+        ], [
+            InlineKeyboardButton('☂ ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ ☂', url='https://t.me/+rs4CPTFXPjs5Yzhl')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
@@ -45,15 +47,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('༒ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ ༒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 1 ⨳', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 2 ⨳', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/TAMIL_FLIMS_HD')
         ], [
-            InlineKeyboardButton('× ʜᴇʟᴩ ×', callback_data='help'),
-            InlineKeyboardButton('⊹ ᴀʙᴏᴜᴛ ⊹', callback_data='about')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+Bj7hDRsg9GE0MDNl'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+sURH2NlgZ9plNWI9')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
+            InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
+        ], [
+            InlineKeyboardButton('☂ ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ ☂', url='https://t.me/+rs4CPTFXPjs5Yzhl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,15 +97,17 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('༒ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ ༒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 1 ⨳', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('⨳ ɢʀᴏᴜᴩ 2 ⨳', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/TAMIL_FLIMS_HD')
         ], [
-            InlineKeyboardButton('× ʜᴇʟᴩ ×', callback_data='help'),
-            InlineKeyboardButton('⊹ ᴀʙᴏᴜᴛ ⊹', callback_data='about')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+Bj7hDRsg9GE0MDNl'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+sURH2NlgZ9plNWI9')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
+            InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
+        ], [
+            InlineKeyboardButton('☂ ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ ☂', url='https://t.me/+rs4CPTFXPjs5Yzhl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
