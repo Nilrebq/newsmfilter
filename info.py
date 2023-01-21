@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/9eb19affc26e0f93805d0.jpg https://te.legra.ph/file/5711825703d7757d76569.jpg https://te.legra.ph/file/c6d023761457984cdce1e.jpg https://te.legra.ph/file/cfb1682b24ce7ecce1ce2.jpg https://te.legra.ph/file/231481e6ca18ce938d2bd.jpg https://te.legra.ph/file/b2798a19a83020dd106e4.jpg https://te.legra.ph/file/0211f5764945f712ada82.jpg https://te.legra.ph/file/61ecf93fdab7547ad50b2.jpg https://te.legra.ph/file/0a7420b9a4b23e6ad4a0e.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/3b096237fce8f2e98b642.jpg https://te.legra.ph/file/7c753f6785f4e2323a51f.jpg https://te.legra.ph/file/4704157b8135ab04b9010.jpg https://te.legra.ph/file/71a2829abc12ad43b87e3.jpg https://te.legra.ph/file/71823383d2c3e66a8d4fc.jpg https://te.legra.ph/file/c2fd4faffb4515f64edcd.jpg https://te.legra.ph/file/36ae2d9152da87e123fbe.jpg https://te.legra.ph/file/fb678890ffce50a4f1149.jpg https://te.legra.ph/file/57cf930541dce87356638.jpg https://te.legra.ph/file/7ff7a314b51b5057f57fd.jpg https://te.legra.ph/file/f1457f3dd25dd022b8db1.jpg https://te.legra.ph/file/677b5d15440511be247b4.jpg https://te.legra.ph/file/dea335029a8b73ac44261.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906').split()]
