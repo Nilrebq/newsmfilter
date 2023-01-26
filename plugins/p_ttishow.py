@@ -54,7 +54,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://te.legra.ph/file/35610b78fd5d031c2ec6a.jpg",                                               
+                photo="https://te.legra.ph/file/c49574bffb1e4471c12d3.jpg",                                               
                                                  caption=f'<b>𝐇𝐄𝐘, {u.mention} 👋🏻\n✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵\n╔════❰ DOCTOR STRANGE 🪄 ❱═❍⊱❁۪۪\n║╭━━━━━━━━━━━━━━━➣\n║┣\n║┣<a href=https://t.me/+xyUQTglaDQE0ZWNl>🔰✥ ▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>\n║┣<a href=https://t.me/+kWFUvjpFKj80YjA9>🔰✥ ▷ GROUP 1 ◁</a>\n║┣<a href=https://t.me/+NlCeVL0AK2ZhZGVl>🔰✥ ▷ GROUP 2 ◁</a>\n║┣<a href=https://t.me/BACKUP_4KOFFICIAL/11>🔰✥ ▷ HOW TO DOWNLOAD ◁</a>\n║┣\n║┣ᴍᴏᴠɪᴇ ʀᴇqᴜᴇꜱᴛꜱ ꜰᴏʀᴍᴀᴛꜱ\n║┣ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴀɴᴅ yᴇᴀʀ\n║┣ᴇx: ɢᴜʟᴜ ɢᴜʟᴜ 2022\n║╰━━━━━━━━━━━━━━━➣\n╚══════════════════❍⊱❁',
                                                  
                 )
