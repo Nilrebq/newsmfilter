@@ -14,7 +14,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://dulink.in/')
-    START_TXT = environ.get("START_TXT", "<b> ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>,ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ ᴀʟsᴏ ! ᴀʟsᴏ ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs\n\n🍃ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/Hari_OP>𝙷𝙰𝚁𝙸 𓆩♡︎𓆪</a> </b>")
+    START_TXT = environ.get("START_TXT", "<b> ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>,ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ ᴀʟsᴏ ! ᴀʟsᴏ ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs\n\n🍃ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/HeadOf4KOfficial>SK 𓆩♡︎𓆪</a> </b>")
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
@@ -42,9 +42,9 @@ class script(object):
 ║┣
 ║┣<a href=https://t.me/+xyUQTglaDQE0ZWNl>🔰✥ ▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
 ║┣
-║┣<a href=https://t.me/+lp5mOR6wSMIyMzY1>🔰✥ ▷ɢʀᴏᴜᴘ 1◁</a>
+║┣<a href=https://t.me/+kWFUvjpFKj80YjA9>🔰✥ ▷ɢʀᴏᴜᴘ 1◁</a>
 ║┣
-║┣<a href=https://t.me/+VyuE_q8JC9UzZTll>🔰✥ ▷ɢʀᴏᴜᴘ 2◁</a>
+║┣<a href=https://t.me/+NlCeVL0AK2ZhZGVl>🔰✥ ▷ɢʀᴏᴜᴘ 2◁</a>
 ║┣
 ║┣🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ 🙌</a>
 ║┣
