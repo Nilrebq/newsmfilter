@@ -12,8 +12,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'LazyPrincess')
-API_ID = int(environ.get('API_ID', '10261086'))
-API_HASH = environ.get('API_HASH', '9195dc0591fbdb22b5711bcd1f437dab')
+API_ID = int(environ.get('API_ID', '8440252'))
+API_HASH = environ.get('API_HASH', '75565cb2eab94b712f3e674b47badc0a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "5732047959:AAF7Yr4JT1Dns6xPNtppJrwjQ0f0bi6aGhE")
 
 #Port
@@ -25,22 +25,22 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/3b096237fce8f2e98b642.jpg https://te.legra.ph/file/7c753f6785f4e2323a51f.jpg https://te.legra.ph/file/4704157b8135ab04b9010.jpg https://te.legra.ph/file/71a2829abc12ad43b87e3.jpg https://te.legra.ph/file/71823383d2c3e66a8d4fc.jpg https://te.legra.ph/file/c2fd4faffb4515f64edcd.jpg https://te.legra.ph/file/36ae2d9152da87e123fbe.jpg https://te.legra.ph/file/fb678890ffce50a4f1149.jpg https://te.legra.ph/file/57cf930541dce87356638.jpg https://te.legra.ph/file/7ff7a314b51b5057f57fd.jpg https://te.legra.ph/file/f1457f3dd25dd022b8db1.jpg https://te.legra.ph/file/677b5d15440511be247b4.jpg https://te.legra.ph/file/dea335029a8b73ac44261.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001652623781').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1253990049').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001859326904').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001881205059')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hulk1:hulk1@cluster0.3xtp3aq.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "hulk1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://skfilter:skfilter@cluster0.volompk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "skfilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001523492120'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001880693759'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyPrincessSupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
@@ -72,7 +72,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
       # URL Shortener #
 
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'ec72f63f7a24370058610e02813fff3ec317f4c0')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'ca2278bc8f774b58c59b3c65007c2c2e7dadb199')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 250))
