@@ -82,10 +82,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "🍃ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ🍃"
-DOWNLOAD_TEXT_URL = "https://t.me/linkdownlos"
+DOWNLOAD_TEXT_URL = "https://t.me/BACKUP_4KOFFICIAL"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/+dyvRr3LZxlI4ZjVl"
+CAPTION_BUTTON_URL = "https://t.me/+xyUQTglaDQE0ZWNl"
 
    # Auto Delete For Bot Sending Files #
