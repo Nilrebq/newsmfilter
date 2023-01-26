@@ -126,7 +126,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/2"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/BACKUP_4KOFFICIAL/11"),]
 )
     btn.append(
     [InlineKeyboardButton("😬 ʟɪɴᴋ ᴇʀʀᴏʀ ᴩʀᴏʙʟᴇᴍ 😬", url="https://t.me/linkdownlos/4"),]
@@ -857,7 +857,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/2"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/BACKUP_4KOFFICIAL/11"),]
 )
     btn.append(
     [InlineKeyboardButton("😬 ʟɪɴᴋ ᴇʀʀᴏʀ ᴩʀᴏʙʟᴇᴍ 😬", url="https://t.me/linkdownlos/4"),]
