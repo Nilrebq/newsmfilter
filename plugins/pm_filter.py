@@ -854,7 +854,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/howtodownload/4k"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/howtodownload4k/3"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -903,7 +903,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 - 👀"
+        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 @Srilinks4k"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
