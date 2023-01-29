@@ -24,15 +24,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/Srilinks4k')
         ], [
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+kWFUvjpFKj80YjA9'),
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+NlCeVL0AK2ZhZGVl')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+riua0Y3YXHo4NjY1'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+jmVR4rwa93Y5NjNl')
         ], [
             InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
             InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
         ], [
-            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/srilinks4ksupport')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -49,15 +49,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/Srilinks4k')
         ], [
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+kWFUvjpFKj80YjA9'),
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+NlCeVL0AK2ZhZGVl')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+riua0Y3YXHo4NjY1'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+-vgsERpDl5w0NDM9')
         ], [
             InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
             InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
         ], [
-            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/srilinks4ksupport')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAI9zWPK3xn8eRyMVgF-tx8kxT1GJfedAAJuAAONG0YnBeBv_A3hPLceBA") 
@@ -102,15 +102,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/Srilinks4k')
         ], [
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+kWFUvjpFKj80YjA9'),
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+NlCeVL0AK2ZhZGVl')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+riua0Y3YXHo4NjY1'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+-vgsERpDl5w0NDM9')
         ], [
             InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
             InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
         ], [
-            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/srilinks4ksupport')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAI9zWPK3xn8eRyMVgF-tx8kxT1GJfedAAJuAAONG0YnBeBv_A3hPLceBA") 
