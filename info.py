@@ -81,8 +81,8 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "🍃🅂🄼🅁🄸🅃🄸 🄼🄰🄽🄳🄷🄰🄽🄰🍃"
-DOWNLOAD_TEXT_URL = "https://t.me/Talkwithadminzbot"
+DOWNLOAD_TEXT_NAME = "HOW TO DOWNLOAD"
+DOWNLOAD_TEXT_URL = "https://t.me/howtodownload4k/3"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
