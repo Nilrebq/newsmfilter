@@ -110,9 +110,9 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ 1", url="https://t.me/+kWFUvjpFKj80YjA9"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+xyUQTglaDQE0ZWNl"),
-            InlineKeyboardButton("ɢʀᴏᴜᴩ 2", url="https://t.me/+NlCeVL0AK2ZhZGVl")
+            InlineKeyboardButton("SUPPORT", url="https://t.me/srilinks4ksupport"),
+            InlineKeyboardButton("CHANNEL", url="https://t.me/+KvdKW2zQl6Y4MDI1"),
+            InlineKeyboardButton("VIVDISK", url="https://t.me/+-vgsERpDl5w0NDM9")
         ]
     )
 
@@ -126,7 +126,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/BACKUP_4KOFFICIAL/11"),]
+    [InlineKeyboardButton("📥 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url="https://t.me/howtodownload4k/3"),]
 )
     if n_offset == 0:
         btn.append(
@@ -445,15 +445,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('✬ ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ✬', url='https://t.me/Srilinks4k')
         ], [
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+kWFUvjpFKj80YjA9'),
-            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+NlCeVL0AK2ZhZGVl')
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 1 ⊹', url='https://t.me/+riua0Y3YXHo4NjY1'),
+            InlineKeyboardButton('⊹ ɢʀᴏᴜᴩ 2 ⊹', url='https://t.me/+-vgsERpDl5w0NDM9')
         ], [
             InlineKeyboardButton('🧑‍🎓 ʜᴇʟᴩ 🧑‍🎓', callback_data='help'),
             InlineKeyboardButton('🎭 ᴀʙᴏᴜᴛ 🎭', callback_data='about')
         ], [
-            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/+xyUQTglaDQE0ZWNl')
+            InlineKeyboardButton('亗 ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ 亗', url='https://t.me/srilinks4ksupport')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -509,7 +509,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍃ᴜᴩᴅᴀᴛᴇꜱ🍃', url='https://t.me/+xyUQTglaDQE0ZWNl'),
+            InlineKeyboardButton('🍃ᴜᴩᴅᴀᴛᴇꜱ🍃', url='https://t.me/Srilinks4k'),
             InlineKeyboardButton('✨ꜱᴏᴜʀᴄᴇ✨', callback_data='source')
         ],[
             InlineKeyboardButton('💥ʜᴏᴍᴇ💥', callback_data='start'),
@@ -847,14 +847,14 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ 1", url="https://t.me/+kWFUvjpFKj80YjA9"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+xyUQTglaDQE0ZWNl"),
-            InlineKeyboardButton("ɢʀᴏᴜᴩ 2", url="https://t.me/+NlCeVL0AK2ZhZGVl")
+            InlineKeyboardButton("SUPPORT", url="https://t.me/srilinks4ksupport"),
+            InlineKeyboardButton("CHANNEL", url="https://t.me/+KvdKW2zQl6Y4MDI1"),
+            InlineKeyboardButton("VIVDISK", url="https://t.me/+-vgsERpDl5w0NDM9")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/BACKUP_4KOFFICIAL/11"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/howtodownload/4k"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
