@@ -14,39 +14,39 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://dulink.in/')
-    START_TXT = environ.get("START_TXT", "<b> ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>,ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ ᴀʟsᴏ ! ᴀʟsᴏ ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs\n\n🍃ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/HeadOf4KOfficial>SK 𓆩♡︎𓆪</a> </b>")
+    START_TXT = environ.get("START_TXT", "<b> ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/Smritii_mandhanaa_bot>{SMRITI~MANDHANA}</a>,ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ ᴀʟsᴏ ! ᴀʟsᴏ ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs\n\n🍃ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/TalkWithadminzbot>ʙᴇʀʟɪɴ</a> </b>")
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
+╔════❰ SMFILTER ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
-║┣⪼ 𝓜𝔂 𝓝𝓪𝓶𝓮 - {}
-║┣⪼ 𝓒𝓻𝓮𝓪𝓽𝓸𝓻 - <a href=https://t.me/HeadOf4KOfficial>SK</a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 - 𝙺𝙾𝚈𝙴𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓡𝓮𝓸𝓹 - 𝙿𝙰𝙸𝙳 𝙾𝙽𝙻𝚈
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
+║┣⪼ ADMIN - BERLIN 
+║┣⪼ CREATOR - <a href=https://t.me/Talkwithadminzbot>BERLIN</a>
+║┣⪼ LIBRARY - PYROGRAM
+║┣⪼ LANGUAGE - PYTHON 4
+║┣⪼ DATABASE - MONGO DB
+║┣⪼ SERVER - HEROKU
+║┣⪼ SOURCE - PAID ONLY
+║┣⪼ BUILD STATUS - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
 ║┗━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁</b>"""
     SOURCE_TXT = """<b>𝐇𝐄𝐘 𝐁𝐑𝐔𝐇
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
+╔════❰ SMFILTER ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
-║┣🎯✨ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ❣
+║┣🎯✨ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sʀɪʟɪɴᴋs𝟺ᴋ ɴᴇᴛᴡᴏʀᴋ
 ║┣⚡️🍬ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟꜱ 🦋✨
 ║┗━━━━━━━━━━━━━━━➣
 ║┏━━━━━━━━━━━━━━━➣
 ║┣
-║┣<a href=https://t.me/+xyUQTglaDQE0ZWNl>🔰✥ ▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
+║┣<a href=https://t.me/Srilinks4k>MAIN CHANNEL</a>
 ║┣
-║┣<a href=https://t.me/+kWFUvjpFKj80YjA9>🔰✥ ▷ɢʀᴏᴜᴘ 1◁</a>
+║┣<a href=https://t.me/+riua0Y3YXHo4NjY1>FILES GROUP</a>
 ║┣
-║┣<a href=https://t.me/+NlCeVL0AK2ZhZGVl>🔰✥ ▷ɢʀᴏᴜᴘ 2◁</a>
+║┣<a href=https://t.me/+-vgsERpDl5w0NDM9>STREAM LINKS GROUP</a>
 ║┣
-║┣🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ 🙌</a>
+║┣<a href=https://t.me/Srilinks4ksupport>SUPPORT GROUP</a>
 ║┣
 ║┗━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁</b>"""
@@ -66,15 +66,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- ᠻꪶ𝓲ꪑ𝘴 Supports both url and alert inline buttons.
+- SMFILTER Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Hb_LinkZzz supports buttons with any telegram media type.
+2. SMFILTER supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/hb_admin_bot)</code>
+<code>[Button Text](buttonurl:https://t.me/Srilinks4k)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -101,7 +101,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of MS_LinkZzz
+these are the extra features of SMFILTER
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
